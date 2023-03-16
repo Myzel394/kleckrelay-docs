@@ -25,5 +25,5 @@ Nginx or Caddy.
 
 :::tip
 We recommend using [bunkerweb](https://github.com/bunkerity/bunkerweb) as a reverse proxy.
-You can use our [tool](tool) to generate a configuration for bunkerweb.
+You can use our [tool](#tool) to generate a configuration for bunkerweb.
 :::
