@@ -1,5 +1,7 @@
 import React, {ReactElement, useState} from "react";
+// @ts-ignore
 import * as openpgp from "openpgp/lightweight";
+// @ts-ignore
 import cryptoRandomString from "crypto-random-string";
 
 export default function ConfigGenerator(): ReactElement {
