@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
+title: Docker
 ---
 
 KleckRelay requires a total of 3 services to run (this will probably change in future):
@@ -13,6 +14,10 @@ This guide assumes you are using Docker and Docker Compose.
 :::
 
 ### Creating docker-compose.yml
+
+:::tip
+Use our [Config Generator](/docs/self-host/config-generator) to generate everything you need.
+:::
 
 We will use a separate `.env` file to store sensitive information. This will be shared by multiple services.
 Here's an example, you will need to change at least the passwords and the domain name:
